@@ -14,6 +14,8 @@
 		048ADADE248EF04800AB3BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048ADADC248EF04800AB3BA5 /* LaunchScreen.storyboard */; };
 		048ADAEA2490F9C400AB3BA5 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */; };
 		048ADAEC2490F9F900AB3BA5 /* MoviesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ADAEB2490F9F900AB3BA5 /* MoviesDataModel.swift */; };
+		1E2ABA0E24B0DADD00AE8262 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2ABA0D24B0DADD00AE8262 /* MasterView.swift */; };
+		1E2ABA1024B0E50800AE8262 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2ABA0F24B0E50800AE8262 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		048ADADF248EF04800AB3BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		048ADAEB2490F9F900AB3BA5 /* MoviesDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesDataModel.swift; sourceTree = "<group>"; };
+		1E2ABA0D24B0DADD00AE8262 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		1E2ABA0F24B0E50800AE8262 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */,
+				1E2ABA0D24B0DADD00AE8262 /* MasterView.swift */,
+				1E2ABA0F24B0E50800AE8262 /* CustomCell.swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 			files = (
 				048ADAEC2490F9F900AB3BA5 /* MoviesDataModel.swift in Sources */,
 				048ADAEA2490F9C400AB3BA5 /* MovieDetailsViewController.swift in Sources */,
+				1E2ABA1024B0E50800AE8262 /* CustomCell.swift in Sources */,
 				048ADAD2248EF04400AB3BA5 /* AppDelegate.swift in Sources */,
+				1E2ABA0E24B0DADD00AE8262 /* MasterView.swift in Sources */,
 				048ADAD4248EF04400AB3BA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

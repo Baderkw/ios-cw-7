@@ -51,6 +51,7 @@ class MovieDetailsViewController: UIViewController {
         
         self.actorImg1.image = UIImage(named: movieData.actors[0])
         self.actorName1.text = movieData.actors[0]
+        
         self.actorImg2.image = UIImage(named: movieData.actors[1])
         self.actorName2.text = movieData.actors[1]
 
